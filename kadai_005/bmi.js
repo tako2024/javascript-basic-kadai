@@ -3,7 +3,7 @@ let weight = 68;
 let height = 1.7;
 
 //bmi計算
-bmi = weight / (height / height);
+bmi = weight / (height * height);
 
 //コンソール出力
 console.log( bmi );
